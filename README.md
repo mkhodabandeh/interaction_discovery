@@ -3,10 +3,10 @@
 
 
 Please run the following commands to run the code
-'''
+```
 >> startup
 >> run_algorithm()
-'''
+```
 
 Settings of the algorithm should be set in the file run_algorithm.m
 All the settings are explained in the comments.

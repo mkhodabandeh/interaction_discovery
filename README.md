@@ -1,5 +1,5 @@
 # Interaction Discovery
-**Discovering Human Interactions in Videos with Limited Data Labeling
+## Discovering Human Interactions in Videos with Limited Data Labeling
 
 
 Please run the following commands to run the code

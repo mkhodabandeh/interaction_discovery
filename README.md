@@ -2,7 +2,7 @@
 ## Discovering Human Interactions in Videos with Limited Data Labeling
 
 
-Please run the following commands to run the code
+Please run the following commands in Matlab.
 ```
 >> startup
 >> run_algorithm()
@@ -19,13 +19,13 @@ Basically the functions that you need to reimplement for your own purpose
 are:
 
 1- `read_data.m`
-
+<div>
         This function will be called during the code to read the data. You
         should first extract your features and save them in a file. Then 
         write a code in read_data.m that reads the file and sets the 
         required variables. For instance take a look at the codes related
         to collective activity. Lines 332 to 341.
-
+</div>
 2- `eval.m`
 
         This function evaluates the results of the algorithm. Please take 

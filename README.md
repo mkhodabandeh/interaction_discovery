@@ -17,8 +17,8 @@ and can be found here: `./data/collective_activity.mat`
 
 Basically the functions that you need to reimplement for your own purpose
 are:
-
-1- `read_data.m`
+<dl>
+1. `read_data.m`
 <dd>
         This function will be called during the code to read the data. You
         should first extract your features and save them in a file. Then 
@@ -27,7 +27,7 @@ are:
         to collective activity. Lines 332 to 341.
 </dd>
 
-2- `eval.m`
+2. `eval.m`
 
         This function evaluates the results of the algorithm. Please take 
         a look at the file:
@@ -50,3 +50,4 @@ are:
 5- After implementing the mentioned functions you need to manualy set some
     variables that tells the algorithm to use your functions.
     Please take a look at the lines 111 to 125 of `main_mmca.m`
+</dl>

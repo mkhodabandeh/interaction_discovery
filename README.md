@@ -27,26 +27,34 @@ are:
         to collective activity. Lines 332 to 341.
 </div>
 
+
 2. `eval.m`
+<div style="left-margin:10pt">
         This function evaluates the results of the algorithm. Please take 
         a look at the file:
         `eval_lmmca_with_global_group_activity_user_interaction.m`
+</div>
 
-3- `grad.m`
 
+3. `grad.m`
+<div style="left-margin:10pt">
         This function calculates the gradiant of the objective function. 
         The implementation of this function depends on your model.
         Please take a look at the file:
         `grad_lmmca_with_global_group_activity_user_interaction.m`
+</div>
 
-4- `inference.m`
 
+4. `inference.m`
+<div style="left-margin:10pt">
         This function does the inference of latent variables and the 
         implementation depends on the model.
         Please take a look at the file:
         `infer_global_latent_variables_group_activity.m`
+</div>
 
-5- After implementing the mentioned functions you need to manualy set some
+
+5. After implementing the mentioned functions you need to manualy set some
     variables that tells the algorithm to use your functions.
     Please take a look at the lines 111 to 125 of `main_mmca.m`
 

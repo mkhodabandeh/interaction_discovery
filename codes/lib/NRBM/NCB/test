@@ -1,0 +1,9 @@
+d = 10;
+
+w0 = rand(1, d);
+lambda = 0.5;
+
+
+
+
+[wbest, fbest, numfeval, fstart] = NRBM(w0, lambda, options, f, auxdata);

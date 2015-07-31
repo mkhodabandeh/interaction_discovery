@@ -1,6 +1,5 @@
 # Interaction Discovery
-## Discovering Human Interactions in Videos with Limited Data Labeling
-
+### [Discovering Human Interactions in Videos with Limited Data Labeling](http://www.researchgate.net/publication/272359245_Discovering_Human_Interactions_in_Videos_with_Limited_Data_Labeling)
 
 Please run the following commands in Matlab.
 ```
